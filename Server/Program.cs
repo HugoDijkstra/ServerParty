@@ -12,8 +12,8 @@ namespace Server
 
         static void Main(string[] args)
         {
-            Server s = new Server();
-            s.Start();
+            ConnectionManager c = new ConnectionManager();
+            c.Start();
         }
     }
 }
